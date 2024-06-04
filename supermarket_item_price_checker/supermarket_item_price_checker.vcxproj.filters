@@ -18,12 +18,21 @@
     <ClCompile Include="supermarket_item_price_checker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="supermarket_prices.cpp">
+    <ClCompile Include="price_finder_virtual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="price_finder_nz.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="supermarket_prices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="price_finder_virtual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="price_finder_nz.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -127,10 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="price_finder_nz.cpp" />
+    <ClCompile Include="price_finder_virtual.cpp" />
     <ClCompile Include="supermarket_item_price_checker.cpp" />
-    <ClCompile Include="supermarket_prices.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="price_finder_nz.h" />
+    <ClInclude Include="price_finder_virtual.h" />
     <ClInclude Include="supermarket_prices.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
