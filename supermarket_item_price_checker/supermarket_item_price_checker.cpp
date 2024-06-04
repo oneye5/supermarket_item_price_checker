@@ -3,10 +3,11 @@
 
 #include <iostream>
 #include <string>
+#include "supermarket_prices.h"
 
 int main()
 {
     std::string in;
     std::cin >> in;
-    std::cout << in;
+    std::cout << supermarket_prices::find_all_prices(in);
 }
